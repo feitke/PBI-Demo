@@ -260,7 +260,7 @@ Product Detail Title = "Product Detail for " & SELECTEDVALUE(SDUD_2025[Labeler N
 
 ```json
 {
-  "name": "BMS Demo Theme",
+  "name": "Medicaid Drug Demo Theme",
   "foreground": "#2F2F2F",
   "background": "#FFFFFF",
   "tableAccent": "#6F2DBD",
@@ -382,7 +382,7 @@ Apply consistent formatting across visuals:
 - **Title**: Show titles on all visuals
 - **Background**: Light gray or white
 - **Border**: Subtle borders for separation
-- **Font**: Use theme defaults (should match BMS theme)
+- **Font**: Use theme defaults (should match theme)
 - **Number Format**: 
   - Currency values: Display in millions with $ prefix (e.g., $2.5M)
   - Whole numbers: Add thousand separators
@@ -477,3 +477,4 @@ Quick reference for all measures created:
 **Document Version**: 1.0  
 **Last Updated**: December 30, 2025  
 **Created For**: Medicaid Drug Data Visualization Exercise
+
