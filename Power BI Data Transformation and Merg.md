@@ -2,10 +2,10 @@
 
 ### **Step 1: Download Data**
 
-*   Go to **Data.Medicaid.gov** and download the **weekly drug price data** at **NADAC (National Average Drug Acquisition Cost) 2025**.
+*   Go to **Data.Medicaid.gov** and download the **weekly drug price data** at **NADAC (National Average Drug Acquisition Cost) 2025** https://data.medicaid.gov/dataset/f38d0706-1239-442c-a3cc-40ef1b686ac0.
 *   Click **Download full dataset (CSV)**.
 *   Note: NDC Codes are provided, but **drug manufacturer information is missing**.
-*   Download the **Drug Manufacturer Contacts** CSV file separately.
+*   Download the **Drug Manufacturer Contacts** CSV file separately from https://data.medicaid.gov/dataset/9fcb14ec-d5f0-536e-9938-3f0024531e5b.
 
 ***
 
