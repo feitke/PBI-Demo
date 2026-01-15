@@ -11,7 +11,7 @@
 
 ### **Step 2: Load and Profile NADAC Data**
 
-*   Load the **NADAC CSV file** into Power BI.
+*   Load the **NADAC CSV file** into Power BI by clicking Get Data, choosing Text/CSV in the dropdown and selecting the downloaded file.
 *   Click **Transform Data** to open Power Query.
 *   In the **View** menu, enable:
     *   **Column Quality**
@@ -33,6 +33,7 @@
 *   Rename the split column:
     *   `NDC.1` → `Labeler NDC`.
     *   Ensure its type is **Text**.
+*   Note that leading 0s are still dropped, for example row 10 shows 378 instead of 00378. To fix this delete the step "Chnaged Type1" that Power BI added after the Split Column by Position step. 
 
 ***
 
@@ -59,7 +60,7 @@
 
 *   Click the **expander icon** on the rightmost column.
 *   Select:
-    *   `Legal Name`
+    *   `Labeler Name`
     *   `Legal Corporation`
 *   Uncheck **Use original column name as prefix**.
 
