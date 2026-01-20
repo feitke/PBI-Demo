@@ -15,7 +15,7 @@ This Power BI exercise demonstrates essential data shaping and combining techniq
 ## Prerequisites
 - Power BI Desktop installed
 - Internet connection (for OData feed)
-- Excel file: `Products.xlsx` (should contain Products sheet with product data)
+- Excel file: `Products.xlsx` (should contain Products sheet with product data). Download from https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx and save the file.
 
 ---
 
