@@ -117,7 +117,7 @@ in
 let
     Source = MDRP_Products,
     #"Removed Other Columns" = Table.SelectColumns(Source,{"Labeler Name", "Labeler Code"}),
-    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns", {"Labeler Name"}),
+    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns", {"Labeler Code"}),
     #"Reordered Columns" = Table.ReorderColumns(#"Removed Duplicates",{"Labeler Code", "Labeler Name"})
 in
     #"Reordered Columns"
@@ -561,5 +561,6 @@ Quick reference for all measures created:
 **Document Version**: 1.0  
 **Last Updated**: December 30, 2025  
 **Created For**: Medicaid Drug Data Visualization Exercise
+
 
 
