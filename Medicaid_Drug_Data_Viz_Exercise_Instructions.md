@@ -450,6 +450,9 @@ After importing:
    - **Category**: `SDUD_2025[Product Name]`
    - **Values**: `TotalReimbursed`
    - **Position**: Left side of page
+  
+7. **Configure for Drillthrough**
+Under Visualizations in the Drillthrough section in the box "Add drillthrough fields here", drag in the field Labeler Name.
 ---
 
 ## Part 8: Format and Polish
@@ -561,6 +564,7 @@ Quick reference for all measures created:
 **Document Version**: 1.0  
 **Last Updated**: December 30, 2025  
 **Created For**: Medicaid Drug Data Visualization Exercise
+
 
 
 
