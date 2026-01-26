@@ -260,31 +260,49 @@ Product Detail Title = "Product Detail for " & SELECTEDVALUE(SDUD_2025[Labeler N
 
 ```json
 {
-  "name": "Medicaid Drug Demo Theme",
-  "foreground": "#2F2F2F",
-  "background": "#FFFFFF",
-  "tableAccent": "#6F2DBD",
-  "visualStyles": {},
+  "name": "Company Theme",
   "dataColors": [
-    "#6F2DBD",
-    "#048BA8",
-    "#F18F01",
-    "#2E4057",
-    "#8E5572",
-    "#00A7E1",
-    "#9CC69B",
-    "#D95D39",
-    "#4F6D7A",
-    "#B5A886",
-    "#4AC5BB",
-    "#5F6B6D",
-    "#FB8281",
-    "#F4D25A",
-    "#7F898A",
-    "#A4DDEE",
-    "#FDAB89",
-    "#B687AC"
-  ]
+    "#BE2BBA",
+    "#0E1A77",
+    "#0B8EA4",
+    "#33D6F1",
+    "#00CE77",
+    "#59FFB9",
+    "#E99100",
+    "#FFD186",
+    "#DF4F03",
+    "#FDA97D",
+    "#8C3A36",
+    "#CB7C78"
+  ],
+  "good": "#00CE77",
+  "neutral": "#A69F9F",
+  "bad": "#8C3A36",
+  "maximum": "#33D6F1",
+  "center": "#FFD186",
+  "minimum": "#EFE6E7",
+  "null": "#CB7C78",
+  "background": "#EFE6E7",
+  "foreground": "#595454",
+  "tableAccent": "#BE2BBA",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#595454"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#595454"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#595454"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#595454"
+    }
+  }
 }
 ```
 
@@ -292,18 +310,84 @@ Product Detail Title = "Product Detail for " & SELECTEDVALUE(SDUD_2025[Labeler N
 
 ### 6.2 Understanding the Theme Settings
 
-The theme includes these key elements:
-- **name**: "Demo Theme" - the display name in Power BI
-- **foreground**: "#2F2F2F" - dark gray text color
-- **background**: "#FFFFFF" - white background
-- **tableAccent**: "#6F2DBD" - purple color for table headers
-- **dataColors**: Array of 18 custom colors for data visualization
 
-**Primary Colors in the Palette:**
-- **Purple** (#6F2DBD) - Primary brand color
-- **Teal** (#048BA8) - Secondary color
-- **Orange** (#F18F01) - Accent color
-- **Dark Blue** (#2E4057) - Supporting color
+This updated Power BI theme incorporates brand styling, accessibility considerations, and optimized visualization settings. Below is a breakdown of the key elements defined in the JSON.
+
+---
+
+### **Core Theme Properties**
+
+- **name**: `Company Theme`  
+  Display name of the theme within Power BI.
+
+- **background**: `#EFE6E7`  
+  Soft, warm neutral background applied to visuals.
+
+- **foreground**: `#595454`  
+  Medium gray used as the primary text color for improved readability.
+
+- **tableAccent**: `#BE2BBA`  
+  Bold magenta tone used for table headers and accents.
+
+---
+
+### **Data Colors**
+
+The theme specifies **12 custom data colors** designed to provide high contrast and clear differentiation across visuals:
+#BE2BBA
+#0E1A77
+#0B8EA4
+#33D6F1
+#00CE77
+#59FFB9
+#E99100
+#FFD186
+#DF4F03
+#FDA97D
+#8C3A36
+#CB7C78
+
+These colors balance vibrant hues with softer complements to support easy interpretation of multi-series charts.
+
+---
+
+### **Semantic Colors**
+
+Used for KPIs, conditional formatting, and indicators:
+
+- **good**: `#00CE77` – Positive/above target  
+- **neutral**: `#A69F9F` – Baseline or unchanged  
+- **bad**: `#8C3A36` – Negative/below target  
+- **maximum**: `#33D6F1` – High-range value  
+- **center**: `#FFD186` – Midpoint or benchmark  
+- **minimum**: `#EFE6E7` – Low-range value  
+- **null**: `#CB7C78` – Missing or undefined values
+
+---
+
+### **Primary Palette Themes**
+
+While not explicitly labeled in the JSON, the overall visual identity centers around four dominant color families:
+
+- **Magenta/Purple** (`#BE2BBA`) – Primary brand accent  
+- **Deep Navy** (`#0E1A77`) – Foundational high-contrast color  
+- **Teal/Aqua Range** (`#0B8EA4`, `#33D6F1`, `#00CE77`) – Secondary cool-toned colors  
+- **Warm Orange/Gold Range** (`#E99100`, `#FFD186`, `#DF4F03`) – Supporting accent colors  
+
+These groupings ensure visual consistency across Power BI reports.
+
+---
+
+### **Text Classes**
+
+Typography is standardized across titles, headers, labels, and callouts:
+
+- **title**: *Segoe UI Semibold*, `#595454`  
+- **header**: *Segoe UI Semibold*, `#595454`  
+- **label**: *Segoe UI*, `#595454`  
+- **callout**: *Segoe UI Semibold*, `#595454`  
+
+This approach ensures clarity, strong hierarchy, and brand cohesion.
 
 ### 6.3 Import the Theme into Power BI
 
@@ -477,4 +561,5 @@ Quick reference for all measures created:
 **Document Version**: 1.0  
 **Last Updated**: December 30, 2025  
 **Created For**: Medicaid Drug Data Visualization Exercise
+
 
